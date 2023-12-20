@@ -1,0 +1,160 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ApiService/aspire-cache-sample.ApiService.csproj": {}
+  },
+  "projects": {
+    "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ApiService/aspire-cache-sample.ApiService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ApiService/aspire-cache-sample.ApiService.csproj",
+        "projectName": "aspire-cache-sample.ApiService",
+        "projectPath": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ApiService/aspire-cache-sample.ApiService.csproj",
+        "packagesPath": "/Users/jp/.nuget/packages/",
+        "outputPath": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ApiService/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ServiceDefaults/aspire-cache-sample.ServiceDefaults.csproj": {
+                "projectPath": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ServiceDefaults/aspire-cache-sample.ServiceDefaults.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ServiceDefaults/aspire-cache-sample.ServiceDefaults.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ServiceDefaults/aspire-cache-sample.ServiceDefaults.csproj",
+        "projectName": "aspire-cache-sample.ServiceDefaults",
+        "projectPath": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ServiceDefaults/aspire-cache-sample.ServiceDefaults.csproj",
+        "packagesPath": "/Users/jp/.nuget/packages/",
+        "outputPath": "/Users/jp/Code/dotnet/aspire-cache-sample/aspire-cache-sample.ServiceDefaults/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jp/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.ServiceDiscovery": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23557.2, )"
+            },
+            "OpenTelemetry.Exporter.OpenTelemetryProtocol": {
+              "target": "Package",
+              "version": "[1.7.0-alpha.1, )"
+            },
+            "OpenTelemetry.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[1.7.0-alpha.1, )"
+            },
+            "OpenTelemetry.Instrumentation.AspNetCore": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.GrpcNetClient": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.Http": {
+              "target": "Package",
+              "version": "[1.6.0-beta.2, )"
+            },
+            "OpenTelemetry.Instrumentation.Runtime": {
+              "target": "Package",
+              "version": "[1.5.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
